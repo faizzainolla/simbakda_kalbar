@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -34,7 +33,7 @@ function updateMarkerPosition(latLng) {
   document.getElementById('latitude').value = [latLng.lat()]
     document.getElementById('longitude').value = [latLng.lng()]
 }
-       
+       /*faiz coba repo*/
 var map = new google.maps.Map(document.getElementById('map'), {
 zoom: 12,
 center: new google.maps.LatLng(-7.781921,110.364678),
